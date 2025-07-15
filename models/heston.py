@@ -1,6 +1,6 @@
 import numpy as np
 
-def heston_sim_simple(S0, v0, r, kappa, theta, sigma_v, rho, T, N, M):
+def heston_sim(S0, v0, r, kappa, theta, sigma_v, rho, T, N, M):
     """
     S0: Initial stock price
     v0: Initial variance
